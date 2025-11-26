@@ -1,4 +1,4 @@
-// 1.4 Symbolic Constants
+/* 1.4 Symbolic Constants */
 /* I replaced the celcius formula with a symbolic constonant, and
  gave all of them clearer names. */
 
