@@ -1,9 +1,9 @@
 /* Exercise 1-12: print input one word per line */
+/* Version 1 without states */
 #include <stdio.h>
 int main()
 {
-	int c, state;
-	state = OUT;
+	int c;
 
 	while( (c=getchar()) != EOF)
 	{
