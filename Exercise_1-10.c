@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-	double c;
+	int c;
 
 	while( (c=getchar()) != EOF )
 	{
