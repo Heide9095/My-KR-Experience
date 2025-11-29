@@ -1,5 +1,5 @@
 /* Exercise 1-12: print input one word per line */
-/* Version 1 without states */
+/* Version 0 without states */
 #include <stdio.h>
 int main()
 {
