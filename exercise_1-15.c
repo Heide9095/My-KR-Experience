@@ -5,22 +5,22 @@
 
 #include <stdio.h>
 
-float celcius(float n);
+float celsius(float n);
 
 int main()
 {
 	int c;
        	float i;
-	printf("celcius\tfahrenheit\n");
+	printf("fahrenheit\tcelsius\n");
 	for(i=0; i<=300; i=i+20)
-		printf("%6.1f\t%6.1f\n", i, celcius(i));
+		printf("%6.1f\t%6.1f\n", i, celsius(i));
 
 	return 0;
 }
 
 
 /* function declaration */
-float celcius(float f)
+float celsius(float f)
 {
 	float c; 
 	c = (5.0/9.0)*(f-32.0);
